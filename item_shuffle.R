@@ -1,4 +1,4 @@
-item.shuffle <- function(item, id=NULL, scale=NULL, tolerance=0, fixed=NULL)
+item_shuffle <- function(item, id=NULL, scale=NULL, tolerance=0, fixed=NULL)
 {
     item <- as.character(item)
     if(!is.null(fixed)) {
